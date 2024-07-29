@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uppercase string</title>
+</head>
+<body>
+    <h1>convert uppercase</h1>
+    <input type="text" placeholder="enter the string" id="ins">
+    <button onclick="send()">convert</button>
+    <h1 id="show"></h1>
+    <script>
+        function send(){
+            var input= document.getElementById('ins')
+               input=input.value.toUpperCase()
+               document.getElementById("show").innerHTML=input
+               
+        }
+        
+    </script>
+    
+</body>
+</html>
